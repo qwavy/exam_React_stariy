@@ -1,0 +1,21 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+  }
+  .popup_inner {
+    position: absolute;
+    top: 20px;
+    margin: auto;
+    border-radius: 3px;
+    background: white;
+    width: 500px;
+  }
+  .popup_inner p{
+    padding-left: 50px;
+  }
